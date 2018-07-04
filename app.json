@@ -1,0 +1,29 @@
+{
+  "_comments": "'pages', defines page and their locations, 'window' defubes navigation bar, 'tabbar' need a list with tabe pages",
+  "pages":[
+    "pages/index/index",
+    "pages/stories/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "Land Rover",
+    "navigationBarBackgrondColor": "#ffffff",
+    "navigationBarTextStyle": "Black"
+  },
+  "tabBar": {
+    "selectedColor": "#000000",
+    "borderStyle": "white",
+    "backgroundColor": "#ededed",
+    "list" :[
+    {
+      "text": "Home",
+      "pagePath": "pages/index/index",
+      "iconPath": "icons/home.png",
+      "selectedIconPath": "icons/home-active.png"
+    },{
+      "text": "Stories",
+      "pagePath": "pages/stories/index",
+      "iconPath": "icons/event.png",
+      "selectedIconPath": "icons/event-active.png"
+    }]
+  }
+}
